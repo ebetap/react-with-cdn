@@ -34,7 +34,7 @@ class MainMenu extends React.Component {
   }
 
   componentWillMount() {
-    fetch('http://demo8940350.mockable.io/react')
+    fetch('https://demo8940350.mockable.io/react')
     .then(response => response.json())
     .then(jsonData => {
       this.setState({data: jsonData});
